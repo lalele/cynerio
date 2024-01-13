@@ -9,7 +9,6 @@ FastAPI, Vue, Vuetify, Vite
     - schemas - the data schemas for serialization, validation, etc.
     - services - the business logic
     - tests - tests
-    - utils - json file util
     - dependencies.py - data dependencies inject into route handlers and services
     - requirements - list of required libraries
     - main.py - entry point
