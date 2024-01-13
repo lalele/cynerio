@@ -1,4 +1,4 @@
-# Cynerion's Assignment:
+# Cynerio's Assignment:
 Web server that implements a checkin/checkout process for users.
 # Technologies Used:
 FastAPI, Vue, Vuetify, Vite
