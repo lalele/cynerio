@@ -1,7 +1,7 @@
 # Cynerio's Assignment:
 Web server that implements a checkin/checkout process for users.
 # Technologies Used:
-FastAPI, Vue, Vuetify, Vite
+FastAPI, Vue, Vuetify, Vite, SQLite
 # Project Structure:
 - task_manager
     - alembic - database migration management
