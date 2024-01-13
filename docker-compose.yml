@@ -1,0 +1,16 @@
+services:
+  client:
+    build:
+      context: .
+      dockerfile: Dockerfile.client
+    ports:
+      - "8080:8080"
+    working_dir: /app/client
+
+  task_manager:
+    build:
+      context: .
+      dockerfile: Dockerfile.task_manager
+    ports:
+      - "8000:8000"
+    working_dir: /app/task_manager
