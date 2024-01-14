@@ -17,11 +17,25 @@ FastAPI, Vue, Vuetify, Vite, SQLite
     - main.js - entry point
 # How to run the code
 Task Manager:
+Install requirements (in the cynerio folder):
+```
+pip3 install -r task_manager/requirements/base.txt
+```
+The following should also be installed for the development environment
+```
+pip3 install -r task_manager/requirements/dev.txt
+```
+and the load the server (in the cynerio folder):
 ```
 uvicorn task_manager.main:app --reload
 ```
 
 Client:
+Install the packages:
+```
+npm run dev
+```
+
 Run the following command:
 ```
 npm run dev
