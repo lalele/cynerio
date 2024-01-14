@@ -33,6 +33,7 @@ uvicorn task_manager.main:app --reload
 ```
 
 Client:
+
 Install the packages:
 ```
 npm run dev
