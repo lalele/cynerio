@@ -36,7 +36,7 @@ Client:
 
 Install the packages:
 ```
-npm run dev
+npm i
 ```
 
 Run the following command:
